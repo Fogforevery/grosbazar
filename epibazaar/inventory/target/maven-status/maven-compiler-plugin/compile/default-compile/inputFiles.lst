@@ -1,0 +1,7 @@
+/home/caron/jules_travail/epita-ing-assistants-yaka-jws-2027-jules.caron/epibazaar/inventory/src/main/java/fr/epita/assistants/inventory/converter/ItemConverter.java
+/home/caron/jules_travail/epita-ing-assistants-yaka-jws-2027-jules.caron/epibazaar/inventory/src/main/java/fr/epita/assistants/inventory/data/model/ItemModel.java
+/home/caron/jules_travail/epita-ing-assistants-yaka-jws-2027-jules.caron/epibazaar/inventory/src/main/java/fr/epita/assistants/inventory/data/repository/ItemRepository.java
+/home/caron/jules_travail/epita-ing-assistants-yaka-jws-2027-jules.caron/epibazaar/inventory/src/main/java/fr/epita/assistants/inventory/domain/entity/ItemEntity.java
+/home/caron/jules_travail/epita-ing-assistants-yaka-jws-2027-jules.caron/epibazaar/inventory/src/main/java/fr/epita/assistants/inventory/domain/service/ItemService.java
+/home/caron/jules_travail/epita-ing-assistants-yaka-jws-2027-jules.caron/epibazaar/inventory/src/main/java/fr/epita/assistants/inventory/errors/InventoryErrors.java
+/home/caron/jules_travail/epita-ing-assistants-yaka-jws-2027-jules.caron/epibazaar/inventory/src/main/java/fr/epita/assistants/inventory/presentation/subscriber/InventorySubscriber.java

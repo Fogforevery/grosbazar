@@ -1,0 +1,14 @@
+fr/epita/assistants/shop/errors/ShopErrors.class
+fr/epita/assistants/shop/data/repository/ShopRepository.class
+fr/epita/assistants/shop/presentation/rest/HelloWorldResource.class
+fr/epita/assistants/shop/domain/entity/ShopEntity.class
+fr/epita/assistants/shop/data/model/ItemModel.class
+fr/epita/assistants/shop/domain/service/ItemService.class
+fr/epita/assistants/shop/presentation/rest/ShopResource.class
+fr/epita/assistants/shop/data/model/ShopModel.class
+fr/epita/assistants/shop/converter/ItemConverter.class
+fr/epita/assistants/shop/domain/entity/ItemEntity.class
+fr/epita/assistants/shop/domain/service/ShopService.class
+fr/epita/assistants/shop/converter/ShopConverter.class
+fr/epita/assistants/shop/data/repository/ItemRepository.class
+fr/epita/assistants/shop/presentation/subscriber/ShopSubscriber.class

@@ -1,0 +1,7 @@
+fr/epita/assistants/inventory/converter/ItemConverter.class
+fr/epita/assistants/inventory/presentation/subscriber/InventorySubscriber.class
+fr/epita/assistants/inventory/data/repository/ItemRepository.class
+fr/epita/assistants/inventory/errors/InventoryErrors.class
+fr/epita/assistants/inventory/domain/service/ItemService.class
+fr/epita/assistants/inventory/data/model/ItemModel.class
+fr/epita/assistants/inventory/domain/entity/ItemEntity.class

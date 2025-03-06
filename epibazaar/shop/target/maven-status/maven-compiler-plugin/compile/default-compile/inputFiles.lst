@@ -1,0 +1,14 @@
+/home/caron/jules_travail/epita-ing-assistants-yaka-jws-2027-jules.caron/epibazaar/shop/src/main/java/fr/epita/assistants/shop/converter/ItemConverter.java
+/home/caron/jules_travail/epita-ing-assistants-yaka-jws-2027-jules.caron/epibazaar/shop/src/main/java/fr/epita/assistants/shop/converter/ShopConverter.java
+/home/caron/jules_travail/epita-ing-assistants-yaka-jws-2027-jules.caron/epibazaar/shop/src/main/java/fr/epita/assistants/shop/data/model/ItemModel.java
+/home/caron/jules_travail/epita-ing-assistants-yaka-jws-2027-jules.caron/epibazaar/shop/src/main/java/fr/epita/assistants/shop/data/model/ShopModel.java
+/home/caron/jules_travail/epita-ing-assistants-yaka-jws-2027-jules.caron/epibazaar/shop/src/main/java/fr/epita/assistants/shop/data/repository/ItemRepository.java
+/home/caron/jules_travail/epita-ing-assistants-yaka-jws-2027-jules.caron/epibazaar/shop/src/main/java/fr/epita/assistants/shop/data/repository/ShopRepository.java
+/home/caron/jules_travail/epita-ing-assistants-yaka-jws-2027-jules.caron/epibazaar/shop/src/main/java/fr/epita/assistants/shop/domain/entity/ItemEntity.java
+/home/caron/jules_travail/epita-ing-assistants-yaka-jws-2027-jules.caron/epibazaar/shop/src/main/java/fr/epita/assistants/shop/domain/entity/ShopEntity.java
+/home/caron/jules_travail/epita-ing-assistants-yaka-jws-2027-jules.caron/epibazaar/shop/src/main/java/fr/epita/assistants/shop/domain/service/ItemService.java
+/home/caron/jules_travail/epita-ing-assistants-yaka-jws-2027-jules.caron/epibazaar/shop/src/main/java/fr/epita/assistants/shop/domain/service/ShopService.java
+/home/caron/jules_travail/epita-ing-assistants-yaka-jws-2027-jules.caron/epibazaar/shop/src/main/java/fr/epita/assistants/shop/errors/ShopErrors.java
+/home/caron/jules_travail/epita-ing-assistants-yaka-jws-2027-jules.caron/epibazaar/shop/src/main/java/fr/epita/assistants/shop/presentation/rest/HelloWorldResource.java
+/home/caron/jules_travail/epita-ing-assistants-yaka-jws-2027-jules.caron/epibazaar/shop/src/main/java/fr/epita/assistants/shop/presentation/rest/ShopResource.java
+/home/caron/jules_travail/epita-ing-assistants-yaka-jws-2027-jules.caron/epibazaar/shop/src/main/java/fr/epita/assistants/shop/presentation/subscriber/ShopSubscriber.java
