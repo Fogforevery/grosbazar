@@ -31,7 +31,7 @@ public class GameService {
         try {
             scanner = new Scanner(new File(fileName));
         } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
+            return null;
         }
         while (scanner.hasNextLine()) {
             String line = scanner.nextLine();
@@ -80,15 +80,15 @@ public class GameService {
     public static String goodblock(char c) {
         switch (c) {
             case 'R':
-                return "Rock";
+                return "ROCK";
             case 'W':
-                return "Wood";
+                return "WOOD";
             case 'G':
-                return "Ground";
+                return "GROUND";
             case 'O':
-                return "Water";
+                return "WATER";
             case 'M':
-                return "Money";
+                return "MONEY";
             default:
                 return null;
         }
@@ -100,6 +100,9 @@ public class GameService {
         GameModel game = new GameModel();
         String basicmap = null;
         basicmap = readmapfile(mapPath);
+        if (basicmap == null) {
+            return null;
+        }
         game.setMap(basicmap);
         new GameRepository().persist(game);
         String[][] map = convertStringTo2DArray(basicmap);

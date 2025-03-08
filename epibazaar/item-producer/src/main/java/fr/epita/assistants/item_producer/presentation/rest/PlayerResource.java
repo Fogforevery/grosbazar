@@ -17,6 +17,9 @@ public class PlayerResource {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response startResponse() throws FileNotFoundException {
+        if (PlayerService.getPlayer() == null) {
+            return Response.status(Response.Status.BAD_REQUEST).entity("there is no game").build();
+        }
         PlayerModel player = PlayerService.getPlayer();
         if (player == null) {
             return Response.status(Response.Status.BAD_REQUEST).entity("aled").build();

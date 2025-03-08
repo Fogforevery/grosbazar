@@ -32,6 +32,9 @@ public class GameResource {
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
     public Response startResponse(StartRequest request) {
+        if (request.getMapPath() == null) {
+            return Response.status(Response.Status.BAD_REQUEST).entity("bad start request").build();
+        }
             String[][] map = GameService.newGame(request.getMapPath());
             PlayerService.newplayer();
             if (map == null) {

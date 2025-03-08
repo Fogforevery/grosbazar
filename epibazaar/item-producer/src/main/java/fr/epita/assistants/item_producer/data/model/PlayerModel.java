@@ -30,9 +30,9 @@ public class PlayerModel {
     @Column(name = "stamina_multiplier", nullable = false)
     public float staminaMultiplier;
 
-    @Column(name = "last_collect", nullable = false)
+    @Column(name = "last_collect")
     public LocalDateTime lastCollect;
 
-    @Column(name = "last_move", nullable = false)
+    @Column(name = "last_move")
     public LocalDateTime lastMove;
 }
